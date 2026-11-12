@@ -1,0 +1,16 @@
+# Dépendances
+node_modules/
+
+# Données personnelles : ne jamais versionner
+.env
+config.json
+users/
+session-*.json
+
+# Fichiers de fonctionnement
+logs/
+.lock
+*.tmp.mjs
+
+# Extensions locales (docs/extensions.md)
+extensions/

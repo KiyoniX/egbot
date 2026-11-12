@@ -1,0 +1,33 @@
+{
+  "agent": "claude",
+  "quizDomain": "gymglish.com",
+  "lessonListUrl": "https://www.gymglish.com/gymglish/workbook/episodes",
+  "lessonLinkPattern": "/show-lesson/(\\d+)/",
+  "loginRequestUrl": "https://www.gymglish.com/gymglish/workbook/login",
+  "finishButton": "input[type=submit][name=SENDBUTTON][value=\"Terminer\"]",
+  "finishUrlPattern": "/workbook/end",
+  "nextEpisodeButton": "form input[type=submit][value=\"Prochain épisode\"]",
+  "linkContains": "",
+  "mailSubjectContains": "",
+  "imap": {
+    "host": "",
+    "port": 993,
+    "user": ""
+  },
+  "unlockHours": 6,
+  "retryMinutes": 60,
+  "maxTurns": 150,
+  "model": "",
+  "browser": "chromium",
+  "headless": true,
+  "noSandbox": false,
+  "notes": "",
+  "users": [
+    {
+      "id": "alex",
+      "name": "Alex",
+      "email": "alex@exemple.fr",
+      "discordMention": ""
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "quizbot-server",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@anthropic-ai/claude-code": "^2.1.292",
+    "@playwright/mcp": "0.0.83",
+    "imapflow": "^1.0.0",
+    "mailparser": "^3.7.0"
+  }
+}
